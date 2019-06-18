@@ -32,13 +32,9 @@ namespace Quiz1
             long a = 600851475143;
             for (int i = 2; i < a; i++)
             {
-
-                while (a % i == 0)
-                {
-                    a = a / i;
-                    Console.WriteLine("{0} {1}", i, a);
-                }
+                while (a % i == 0)a = a / i;
             }
+            Console.WriteLine("최대소인수{0}", a);
             Console.ReadLine();
         }
     }
