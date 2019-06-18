@@ -6,12 +6,25 @@ namespace Quiz1
     {
         static void Main(string[] args)
         {
-            int a = 0;
-            for (int i = 0; i < 1000; i++)
+            /////Quiz1///////
+            /* int a = 0;
+             for (int i = 0; i < 1000; i++)
+             {
+                 if (i % 3 == 0 || i % 5 == 0) a += i;
+             }
+             Console.WriteLine("{0}", a);
+             Console.ReadLine();*/
+
+            /////Quiz2///////
+            int iio = 0, io = 1, r = 0; ;
+            for (int i = 2; i < 4000000; i=iio)
             {
-                if (i % 3 == 0 || i % 5 == 0) a += i;
+                iio = io + i;
+                io = i;
+                if (i% 2 == 0) r +=i;
+                
             }
-            Console.WriteLine("{0}", a);
+            Console.WriteLine("{0}", r);
             Console.ReadLine();
         }
     }
