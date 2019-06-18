@@ -16,6 +16,7 @@ namespace Quiz1
              Console.ReadLine();*/
 
             /////Quiz2///////
+             /*
             int iio = 0, io = 1, r = 0; ;
             for (int i = 2; i < 4000000; i=iio)
             {
@@ -25,6 +26,19 @@ namespace Quiz1
                 
             }
             Console.WriteLine("{0}", r);
+            Console.ReadLine();*/
+
+            /////Quiz3///////
+            long a = 600851475143;
+            for (int i = 2; i < a; i++)
+            {
+
+                while (a % i == 0)
+                {
+                    a = a / i;
+                    Console.WriteLine("{0} {1}", i, a);
+                }
+            }
             Console.ReadLine();
         }
     }
