@@ -39,16 +39,25 @@ namespace Quiz1
             Console.ReadLine();*/
 
             /////Quiz4///////
-            /*int c = 0;
-     
-
-
-            Console.WriteLine("{0}",a);
+            int num = 1,c=0;
+            while (true)
+            {
+                num++;
+                for (int i = 1; i < 21; i++)
+                {
+                    if (num % i != 0) break;
+                    c ++;      
+                }
+                if (c == 20) break;
+                else c = 0;
+            }
+            Console.WriteLine("{0}",num);
             Console.ReadLine();
-            */
+
+            //232,792,560‬
             /////Quiz5///////
 
-            int i=1;                          
+            /* int i=1;                          
             int count = 0;      
             int num = 1;
 
@@ -69,7 +78,7 @@ namespace Quiz1
             Console.WriteLine("{0}  {1}", num, i);
             Console.ReadLine();
 
-
+    */
 
 
 
