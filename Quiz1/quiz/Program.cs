@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace Quiz1
+namespace quiz
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Quiz.Q6();
-            Console.ReadLine();
+            Console.WriteLine("Hello World!");
         }
     }
 }
